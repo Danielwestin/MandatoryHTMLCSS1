@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+}
+header {
+  border-bottom: 2px solid black;
+  padding-top: 10px;
+  background-color: #a4fff4;
+  width: 100%;
+  height: 170px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+}
+
+button{
+  height: 45px;
+  width: 65px;
+}
+
+.header li {
+  margin-left:120px;
+  float:left;
+  list-style:none;
+  font-size: 30px;
+  font-family: 'Great Vibes', cursive;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ecbf31;
+  transition-duration: 0.4s;
+}
+
+.header {
+}
+
+.background {
+  background-image: url(https://image.freepik.com/free-vector/blue-watercolor-splash-background_1035-7923.jpg);
+  background-repeat: repeat-x;
+}
+
+.me {
+  border-radius: 10px;
+}
+
+.välkommen {
+  min-height: 175px;
+  text-align: center;
+  padding: 90px;
+  margin: auto;
+  font-size: 25px;
+}
+
+.lista {
+  min-height: 175px;
+  padding: 90px;
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+}
+.ulist li {
+  list-style: none;
+}
+
+ul#ul2{
+  border-collapse: collapse;
+}
+
+table{
+  width: 90%;
+  border-radius: 5px;
+  padding-left: 90px;
+  border-radius: 5px;
+
+}
+td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-radius: 15px;
+}
+
+table#t1 tr:nth-child(even) {
+  background-color: Lightgray;
+}
+table#t1 tr:nth-child(odd) {
+  background-color: white;
+}
+
+footer {
+  border-top: 1px solid black;
+  background-color: #a4fff4;
+  width: 100%;
+  height: 150px;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+}
